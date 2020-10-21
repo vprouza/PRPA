@@ -32,8 +32,8 @@ int main(int argc, char *argv[])
                 else
                 {
                     printf("%d", number);
-                    min = 0;
-                    max = 0;
+                    min = number;
+                    max = number;
                 }
                 counter++;
                 sum += number;
